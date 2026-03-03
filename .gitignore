@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Large genomics data files
+data/raw/*.txt
+data/raw/*.gz
+data/raw/*.tar
+data/processed/*.rds
+
+# Mac system files (if not already there)
+.DS_Store
